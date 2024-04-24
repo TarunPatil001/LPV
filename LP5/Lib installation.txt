@@ -1,0 +1,5 @@
+1. python -m venv my_venv
+2. .\my_venv\Scripts\activate
+3. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+4. pip install ipykernel
+5. python -m ipykernel install --user --name=tfkernel
